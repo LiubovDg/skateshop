@@ -1,0 +1,360 @@
+.basis {
+    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/1400/ee8ee352983693.5924103f5cd8b.jpg)
+}
+
+*[class^="register-item"] {
+    display: inline-block;
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.register-item {
+    width: 8.333%;
+}
+
+.register-entrance-item {
+    text-decoration: none;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.16);
+    padding: 5px 5px 5px 5px;
+    color: #000000;
+}
+
+*[class^="logo"] {
+    display: inline-block;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-item {
+    width: 83.333%;
+}
+
+.logo-img {
+    width: 25%;
+}
+
+.logo-img-text {
+    width: 60%;
+}
+
+*[class^="shoping"] {
+    display: inline-block;
+}
+
+.shoping {
+    display: flex;
+    justify-content: flex-end;
+    width: 8.333%;
+}
+
+.shoping-item {
+    width: 100%;
+}
+
+*[class^="menu"] {
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.menu-item {
+    display: inline;
+    list-style: none;
+    font-family: Arial;
+    padding: 15px;
+}
+
+.menu-shop-item {
+    color: #000000;
+    text-decoration: none;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: 190px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #CCCCCC;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu-product{
+    width:127px;
+    padding:5px 10px;
+    border:1px solid #aaa;
+    box-shadow: 0 0 7px #ccc, 0 10px 15px #ceceee inset;
+    border-radius:2px;
+}
+
+.submenu-product-item {
+    text-decoration: none;
+    width:100px;
+    color: black;
+}
+
+*[class^=product]{
+    display: inline-block;
+}
+
+.product {
+    display: flex;
+    justify-content: flex-start;
+    width: 33.333%;
+}
+
+.product-skate {
+    background: #ffffff;
+    border: 4px double black;
+    padding: 10% 15%;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    left: 60%;
+}
+
+.product-enjoi-yellow-item {
+    width: 100%;
+    padding: 5%;
+}
+
+.name-enjoi {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.product-blind-item {
+    width: 100%;
+    padding: 5%;
+}
+
+.name-blind {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+
+.product-enjoi-punk-item {
+    width: 100%;
+    padding: 2%;
+}
+
+.product-two {
+    display: flex;
+    justify-content: flex-start;
+    width: 33.333%;
+    height: 100%;
+}
+
+.product-skate-two {
+    background: #ffffff;
+    border: 4px double black;
+    padding: 10% 15%;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    left: 60%;
+}
+
+.product-almost-bleed-item {
+    width: 103%;
+    padding: 5%;
+}
+
+.name-almost {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.product-zero-apocalypse-item {
+    width: 110%;
+    padding: 5%;
+}
+
+.name-zero {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.buy {
+    background: #005b00;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 675px) {
+    .register-entrance-item {
+        text-decoration: none;
+        font-size: 10px;
+        background: rgba(0, 0, 0, 0.16);
+        padding: 5px 5px 5px 5px;
+        color: #000000;
+    }
+
+    .menu-item {
+        display: inline;
+        list-style: none;
+        font-family: Arial;
+        padding: 0;
+    }
+
+    .menu-shop-item {
+        color: #000000;
+        text-decoration: none;
+        font-size: 70%;
+        font-weight: bold;
+    }
+
+    .submenu {
+        display: none;
+        position: absolute;
+        width: 95px;
+        height: 145px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background: #CCCCCC;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu-product {
+        width: 80px;
+        padding: 2px 7px;
+        border: 1px solid #aaa;
+        box-shadow: 0 0 2px #ccc, 0 5px 10px #ceceee inset;
+        border-radius: 2px;
+    }
+
+    .submenu-product-item {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+
+    .product {
+        display: block;
+        justify-content: flex-start;
+        width: 33.333%;
+    }
+
+    .product-two {
+        display: block;
+        justify-content: flex-start;
+        width: 33.333%;
+        height: 100%;
+    }
+
+    .product-enjoi-yellow-item {
+        width: 60%;
+        padding: 5%;
+    }
+
+    .name-enjoi {
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .product-blind-item {
+        width: 60%;
+        padding: 5%;
+    }
+
+    .name-blind {
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .product-enjoi-punk-item {
+        width: 60%;
+        padding: 2%;
+    }
+
+    .product-almost-bleed-item {
+        width: 63%;
+        padding: 5%;
+    }
+
+    .name-almost {
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .price-almost {
+        position: relative;
+        top: 0;
+        margin-bottom: 15px;
+    }
+
+    .product-zero-apocalypse-item {
+        width: 70%;
+        padding: 5%;
+    }
+
+    .name-zero {
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .buy {
+        font-size: 10px;
+        background: #005b00;
+        font-weight: 400;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}

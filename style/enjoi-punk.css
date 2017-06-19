@@ -1,0 +1,409 @@
+.basis {
+    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/1400/ee8ee352983693.5924103f5cd8b.jpg)
+}
+
+*[class^="register-item"] {
+    display: inline-block;
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.register-item {
+    width: 8.333%;
+}
+
+.register-entrance-item {
+    text-decoration: none;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.16);
+    padding: 5px 5px 5px 5px;
+    color: #000000;
+}
+
+*[class^="logo"] {
+    display: inline-block;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-item {
+    width: 83.333%;
+}
+
+.logo-img {
+    width: 25%;
+}
+
+.logo-img-text {
+    width: 60%;
+}
+
+*[class^="shoping"] {
+    display: inline-block;
+}
+
+.shoping {
+    display: flex;
+    justify-content: flex-end;
+    width: 8.333%;
+}
+
+.shoping-item {
+    width: 100%;
+}
+
+*[class^="menu"] {
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.menu-item {
+    display: inline;
+    list-style: none;
+    font-family: Arial;
+    padding: 15px;
+}
+
+.menu-shop-item {
+    color: #000000;
+    text-decoration: none;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: 190px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #CCCCCC;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu-product{
+    width:127px;
+    padding:5px 10px;
+    border:1px solid #aaa;
+    box-shadow: 0 0 7px #ccc, 0 10px 15px #ceceee inset;
+    border-radius:2px;
+}
+
+.submenu-product-item {
+    text-decoration: none;
+    width:100px;
+    color: black;
+}
+
+
+.product {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-skate {
+    background: #ffffff;
+    border: 4px double black;
+    padding: 5%;
+    width: 50%;
+    margin: 1%;
+}
+
+.product-enjoi-punk-item {
+    width: 16.666%;
+    float: left;
+}
+
+.name-enjoi-punk {
+    position: relative;
+    left: 10%;
+    font-size: 80%;
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.description-product {
+    position: relative;
+    left: 10%;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+.list-characteristic {
+    display: block;
+    width: 100%;
+}
+
+.collection {
+    position: relative;
+    left: 10%;
+    font-size: 75%;
+    font-family: Arial;
+    list-style: none;
+}
+
+.title {
+    float: left;
+    font-weight: bold;
+}
+
+.title-info {
+    position: relative;
+    left: 3%;
+}
+
+.price {
+    text-align: right;
+    position: relative;
+    top: 5%;
+    margin: 3%;
+}
+
+.buy {
+    background: #005b00;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .register-entrance-item {
+        text-decoration: none;
+        font-size: 10px;
+        background: rgba(0, 0, 0, 0.16);
+        padding: 5px 5px 5px 5px;
+        color: #000000;
+    }
+
+    .menu-item {
+        display: inline;
+        list-style: none;
+        font-family: Arial;
+        padding: 0;
+    }
+
+    .menu-shop-item {
+        color: #000000;
+        text-decoration: none;
+        font-size: 80%;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .submenu {
+        display: none;
+        position: absolute;
+        width: 95px;
+        height: 145px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background: #CCCCCC;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu-product{
+        width: 80px;
+        padding: 2px 7px;
+        border: 1px solid #aaa;
+        box-shadow: 0 0 2px #ccc, 0 5px 10px #ceceee inset;
+        border-radius:2px;
+    }
+
+    .submenu-product-item {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+
+    .product-skate {
+        background: #ffffff;
+        border: 4px double black;
+        padding: 5%;
+        width: 40%;
+        margin: 1%;
+    }
+
+    .product-enjoi-punk-item {
+        width: 33.333%;
+        float: left;
+    }
+
+    .name-enjoi-punk {
+        position: relative;
+        left: 10%;
+        font-size: 70%;
+        color: black;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .description-product {
+        position: relative;
+        left: 10%;
+        font-size: 70%;
+        font-weight: bold;
+    }
+
+    .collection {
+        position: relative;
+        left: 10%;
+        font-size: 65%;
+        font-family: Arial;
+        list-style: none;
+    }
+
+    .price {
+        text-align: right;
+        position: relative;
+        top: 5%;
+        margin: 3%;
+        font-size: 70%;
+    }
+
+    .buy {
+        font-size: 10px;
+        background: #005b00;
+        font-weight: 400;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .register-entrance-item {
+        text-decoration: none;
+        font-size: 10px;
+        background: rgba(0, 0, 0, 0.16);
+        padding: 5px 5px 5px 5px;
+        color: #000000;
+    }
+
+    .menu-item {
+        display: inline;
+        list-style: none;
+        font-family: Arial;
+    }
+
+    .menu-shop-item {
+        color: #000000;
+        text-decoration: none;
+        font-size: 60%;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .submenu {
+        display: none;
+        position: absolute;
+        width: 95px;
+        height: 145px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background: #CCCCCC;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu-product {
+        width: 80px;
+        padding: 2px 7px;
+        border: 1px solid #aaa;
+        box-shadow: 0 0 2px #ccc, 0 5px 10px #ceceee inset;
+        border-radius: 2px;
+    }
+
+    .submenu-product-item {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+
+    .product {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .product-enjoi-punk-item {
+        width: 100%;
+        align-content: center;
+    }
+
+    .name-enjoi-punk {
+        display: block;
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .description-product {
+        font-size: 70%;
+        font-weight: bold;
+    }
+
+    .list-characteristic {
+        display: block;
+        position: relative;
+        right: 40px;
+    }
+
+    .collection {
+        font-size: 65%;
+        font-family: Arial;
+        list-style: none;
+    }
+
+    .price {
+        text-align: right;
+        position: relative;
+        top: 0;
+        margin: 3%;
+        font-size: 70%;
+    }
+
+    .buy {
+        font-size: 10px;
+        background: #005b00;
+        font-weight: 400;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
